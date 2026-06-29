@@ -1,0 +1,138 @@
+<!--This says that it uses html 5-->
+<!DOCTYPE html>
+<!--establishes html again-->
+<html>
+    <!-- websites broken up into head and body -->
+    <head>
+        <!-- encoding for the website -->
+        <meta charset="utf-8">
+        <!-- Makes the webiste responsive -->
+        <meta name="viewport" content="width-device-with, initial-scale=1">
+        <!-- sets the title of the page -->
+        <title>HelloSite</title>
+        <!-- link to css file -->
+         <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- header tags can vary from h1 - h6 -->
+        <h1>HelloSite</h1>
+        <h2>An html playground</h2>
+
+
+        This is my very first website  and I'm <b>extremely excited!!!!!</b>
+         <!-- create a paragraph -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet leo quis est tincidunt dictum a sit amet metus. Sed posuere, metus in ultricies interdum, tellus ligula gravida tortor, ut aliquam enim sem ultricies nulla. Sed egestas, ante scelerisque pulvinar tempor, nisi purus fringilla magna, eu feugiat purus diam sed enim. Maecenas eu vulputate arcu. Ut nec est consectetur dui malesuada placerat. Praesent suscipit purus vel sapien gravida elementum. Vestibulum fringilla erat orci, elementum dapibus diam mollis nec. Pellentesque et purus nibh. Nam porttitor sem elit, a maximus libero feugiat et. Donec ullamcorper pellentesque nisi quis cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ac nulla in justo eleifend aliquet. Cras nisi tellus, consequat iaculis neque sit amet, sodales pharetra felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+        <p>Mauris in tortor eu sapien dictum sagittis. Proin elementum justo quis est luctus suscipit. Integer rhoncus, dui vitae gravida commodo, diam orci iaculis neque, a commodo augue lorem vel ex. Nulla viverra quam sit amet dui blandit consequat. Nam dictum, leo eget tincidunt auctor, ante ante malesuada ex, id congue quam sem ut metus. Nulla aliquam eros magna, nec condimentum est aliquet commodo. Nullam posuere, odio quis posuere gravida, dui ligula cursus eros, id dictum ex arcu nec nisi. Integer quis nulla in augue fringilla euismod. Ut fermentum sem eget justo tincidunt, sit amet pulvinar felis ornare. Vestibulum vehicula velit eu arcu sagittis, ut consequat tellus ultricies. Aenean molestie faucibus urna hendrerit vulputate. Vestibulum in est ut nunc pretium auctor. Sed orci arcu, ultricies ut venenatis tincidunt, aliquet ut turpis. In suscipit quam eget auctor egestas.</p>
+
+        <!-- adds a line break -->
+         <br>
+         <br>
+         <!-- bold style tag -->
+        <b>Fusce dapibus neque nec massa dignissim</b> <br>
+        <!-- italics -->
+        <i>placerat ornare sit amet arcu. Nam commodo sem </i><br>
+        <!-- underline -->
+        <u>id nisl varius pellentesque. Praesent sodales </u><br>
+        <!-- emphasize(but basically italics) -->
+        <em>nisi sed nibh vehicula, id accumsan </em><br>
+        <!-- string, but basically bold -->
+        <strong> justo iaculis. Vestibulum condimentum tortor ut</strong><br>
+
+        <!-- we don't use style tags anymore because of css -->
+        
+        <!-- adds a horizontal line -->
+        <hr>
+       
+        <!-- makes a link -->
+        <!-- you have to add an attribute to links -->
+        <!-- href is hypertext reference -->
+         <!-- href="link here" -->
+          <!-- adding a blank target can open the link in a new tag -->
+        <a href="" target="blank">tempus interdum. Pellentesque dapibus non </a>
+         tempus interdum. Pellentesque dapibus non 
+        est in facilisis. Quisque tempus est augue, in
+         mollis elit tincidunt at. Aliquam finibus 
+        convallis tortor, quis mattis est rhoncus ut. 
+        Nam condimentum convallis arcu et suscipit. 
+
+        <!-- create an image -->
+        <!-- you can a border, but usually done in css -->
+        <img src="https://placehold.co/600x300" border="10">
+
+        <!-- unordered list of list items-->
+        <ul>
+            <li>apples
+                <!-- you can nest lists -->
+                 <!-- this is called the child, apples it the parent -->
+                <ul>
+                    <li>more apples</li>
+                </ul>
+            </li>
+            <li>apples</li>
+            <li>apples</li>
+            <li>apples</li>
+            <li>apples</li>
+            <li>apples</li>
+        </ul>
+
+        <br>
+        <!-- ordered list of list items (adds numbers)-->
+        <ol>
+            <li>apples</li>
+            <li>apples</li>
+            <li>apples</li>
+            <li>apples</li>
+            <li>apples</li>
+            <li>apples</li>
+        </ol>
+
+        <!-- Make a table -->
+        <!-- border decides how many pixels border is -->
+        <!-- cellpadding is space inside cell from text to border -->
+        <!-- cellspacing is space bettwen each cell -->
+         <!-- coders used to use tables to create columns in websites back in the day -->
+        <table border="10" cellpadding="10" cellspacing="0">
+            <!-- table row -->
+            <tr>
+                <th></th>
+                <!-- table header -->
+                <th>Month</th>
+                <!-- makes the column span take 2 items, so august1 and august 2 -->
+                <th colspan="2">Month</th>
+                <th>Month</th>
+                <th>Month</th>
+            </tr>
+            <tr>
+                <!-- captues August, June and July -->
+                <td rowspan="3">Fall</td>
+                <!-- table data -->
+                <td>August</td>
+                <!-- can split cells into two columns -->
+                <td>August1</td>
+                <td>August2</td>
+                <td>August</td>
+                <td>August</td>
+            </tr>
+            <tr>
+                <!-- table data -->
+                <td>June</td>
+                <!-- can split cells into two columns -->
+                <td>August1</td>
+                <td>August2</td>
+                <td>August</td>
+                <td>August</td>
+            </tr>
+            <tr>
+                <!-- table data -->
+                <td>July</td>
+                <!-- can split cells into two columns -->
+                <td>August1</td>
+                <td>August2</td>
+                <td>August</td>
+                <td>August</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
+
